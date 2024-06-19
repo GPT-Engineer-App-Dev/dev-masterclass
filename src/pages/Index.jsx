@@ -1,5 +1,6 @@
 import { Container, Text, VStack, Box, Heading, Button, Flex, Image } from "@chakra-ui/react";
 import { FaCode, FaLaptopCode, FaChalkboardTeacher } from "react-icons/fa";
+import CodeEditor from '../components/CodeEditor';
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
             <Text mt={4}>Learn from industry experts with years of experience.</Text>
           </Box>
         </Flex>
+        <CodeEditor />
         <Button colorScheme="teal" size="lg" mt={8}>
           Get Started
         </Button>
